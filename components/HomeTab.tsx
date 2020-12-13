@@ -6,7 +6,7 @@ function HomeTab(){
     return(
 
       <>
-          <Box animation="zoomIn" align="center">
+          <Box margin={{top: '3vh'}} animation="zoomIn" align="center">
             
                 <Box align="center"
                   justify="center"
@@ -16,7 +16,7 @@ function HomeTab(){
                   <Avatar src="/avatar.jpg" size="200px" />
                 </Box>
             
-            <Box animation="fadeIn" pad="small" background="#e6da00">
+            <Box margin={{top: '3vh', bottom: '3vh', left: '3vh', right: '3vh'}} animation="fadeIn" pad="small" background="#e6da00">
               <Paragraph textAlign="center" size="xxlarge" color="#2d3748">
               <strong>Hello, my name is Marvin and I am a Software Developer</strong>
               </Paragraph>
