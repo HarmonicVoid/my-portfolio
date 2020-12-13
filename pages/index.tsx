@@ -39,7 +39,7 @@ export default function Home() {
       </Head>
 
 
-      <Box Box margin={{top: '3vh'}} animation="fadeIn" align="center">
+      <Box margin={{top: '3vh'}} animation="fadeIn" align="center">
         <Heading margin="none" color="white" >marvinbolanos.dev</Heading>
       </Box>
 
