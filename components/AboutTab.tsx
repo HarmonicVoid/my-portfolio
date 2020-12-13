@@ -6,7 +6,7 @@ function AboutTab(){
     return(
 
 
-        <Box margin={{top: '3vh', bottom: '3vh', left: '3vh' , right: '3vh'}} align="center">
+        <Box margin={{top: '3vh'}} align="center">
 
             <Box animation="fadeIn">
                 <Card height="parent" width="parent" background="dark-2">
