@@ -13,10 +13,10 @@ function AboutTab(){
 
                 <CardBody pad="large"> 
 
-                <Heading alignSelf="center" margin="none">About</Heading>
+                <Heading alignSelf="center" margin="none">About Me</Heading>
 
                 <Paragraph size="xlarge" textAlign="center" >
-                I got my hands on my first personal computer when I was 10 year old and it opened a whole new experience. 
+                I got my hands on my first personal computer when I was about 10 years old and it opened a whole new experience. 
                 It made me realize how much enjoyment technology can bring. 
                 Not only did I watch videos on YouTube and learned new things from the web, but would always take the time to ask myself how it all worked. 
                 As a kid I would enjoy messing around with settings and was able to understand how the OS functioned. 
