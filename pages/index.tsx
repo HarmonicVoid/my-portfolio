@@ -6,7 +6,6 @@ import ProjectsTab from '../components/ProjectsTab';
 import { useState } from 'react';
 type TabSection = Readonly<"Home" | "About" | "Projects">;
 import styles from '../styles/myStyles.module.css'
-import { colors } from 'grommet/themes/base';
 
 
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Box, Heading,Paragraph, Card, Carousel, CardBody,CardFooter, Image} from "grommet"
+import styles from '../styles/myStyles.module.css'
+
 
 function AboutTab(){
 
@@ -15,17 +17,21 @@ function AboutTab(){
 
                 <Heading alignSelf="center" margin="none">About Me</Heading>
 
-                <Paragraph size="xlarge" textAlign="center" >
+                <Paragraph className={styles.indent} size="xlarge"  >
                 I got my hands on my first personal computer when I was about 10 years old and it opened a whole new experience. 
                 It made me realize how much enjoyment technology can bring. 
                 Not only did I watch videos on YouTube and learned new things from the web, but would always take the time to ask myself how it all worked. 
+                </Paragraph>     
+                <Paragraph className={styles.indent} size="xlarge">
                 As a kid I would enjoy messing around with settings and was able to understand how the OS functioned. 
                 During that time, thinking I was only messing around with settings, I was actually learning how to troubleshoot. 
                 My friends and family, knowing my troubleshooting skills, would contact me for help. 
+                </Paragraph>
+                <Paragraph className={styles.indent} size="xlarge">
                 Ever since then, growing up I have always had the ambition to ameliorate my technological skills and bring true value to a team. 
                 I work towards creating products which bring positive impact and worth, regarding a larger cause. 
                 I pride myself on my self-motivation, teamwork and entrepreneurial spirit.
-                </Paragraph>                    
+                </Paragraph>           
                    
                 </CardBody>
 
