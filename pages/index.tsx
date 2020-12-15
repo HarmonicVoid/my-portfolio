@@ -1,12 +1,13 @@
-import Head from 'next/head'
-import {Heading, Box, Button} from "grommet"
+import Head from 'next/head';
+import {Heading, Box, Button} from "grommet";
 import HomeTab from '../components/HomeTab';
 import AboutTap from '../components/AboutTab';
 import ProjectsTab from '../components/ProjectsTab';
-import { useState } from 'react'
-import getTodos from '../pages/api/getTodos'
-
+import { useState } from 'react';
 type TabSection = Readonly<"Home" | "About" | "Projects">;
+import styles from '../styles/myStyles.module.css'
+import { colors } from 'grommet/themes/base';
+
 
 
 
@@ -39,16 +40,17 @@ export default function Home() {
       </Head>
 
 
-      <Box margin={{top: '3vh'}} animation="fadeIn" align="center">
-        <Heading margin="none" color="white" >marvinbolanos.dev</Heading>
+      <Box  margin={{top: '3vh'}} animation="fadeIn" align="center" >
+      <Heading margin="none" color="white" className={styles.error}><span>marvinbolanos.dev</span></Heading>
       </Box>
+
 
       <Box align="center">   
 
         <Box gap="large" animation="fadeIn" direction="row">
-          <Button onClick={() => setCurrentTab('Home')}  color="#1A237E" size="medium"  label="Home" primary/>
-          <Button onClick={() => setCurrentTab('About')} color="#1A237E" size="medium" label="About" primary/>
-          <Button onClick={() => setCurrentTab('Projects')} color="#1A237E" size="medium" label="Projects" primary/>
+          <Button onClick={() => setCurrentTab('Home')}  hoverIndicator={true} color="#1A237E" size="medium"  label="Home" primary/>
+          <Button onClick={() => setCurrentTab('About')} hoverIndicator={true} color="#1A237E" size="medium" label="About" primary/>
+          <Button onClick={() => setCurrentTab('Projects')} hoverIndicator={true} color="#1A237E" size="medium" label="Projects" primary/>
         </Box>
 
         {renderSpecificTabElement(currentTab)}

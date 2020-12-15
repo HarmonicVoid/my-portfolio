@@ -1,0 +1,17 @@
+.error {
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+.error > span, .error:before, .error:after {
+    display: table-cell;
+}
+.error:before, .error:after {
+    background: url("../public/yellowLine.png") repeat-x center;
+    width: 50%;
+    content: ' ';
+}
+.error > span {
+    white-space: nowrap;
+    padding: 0 9px;
+}

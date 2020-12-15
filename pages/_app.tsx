@@ -1,7 +1,7 @@
-import { dark, grommet } from 'grommet'
 import '../styles/globals.css'
 import {Grommet, grommet as grommetTheme} from "grommet"
 import marvinsGrommetTheme from "../utils/marvinsGrommetTheme"
+
 
 function MyApp({ Component, pageProps }) {
   return (
