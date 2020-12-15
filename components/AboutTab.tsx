@@ -6,10 +6,10 @@ function AboutTab(){
     return(
 
 
-        <Box margin={{top: '3vh'}} align="center">
+        <Box  align="center">
 
-            <Box animation="fadeIn">
-                <Card height="parent" width="parent" background="dark-2">
+            <Box animation="fadeIn" >
+                <Card margin={{top: '3vh', left:'3vh', right:'3vh'}}height="parent" width="parent" background="dark-2">
 
                 <CardBody pad="large"> 
 
