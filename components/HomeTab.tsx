@@ -28,7 +28,7 @@ function HomeTab(){
                   direction="row"
                   gap="small"
                   pad="small">
-                  <Avatar src="/ava2.jpg" size="200px" />
+                  <Avatar src="/avatar.png" size="200px" />
                 </Box>
                 <Box margin={{top: '3vh', bottom: '3vh', left: '3vh', right: '3vh'}} animation="zoomOut" pad="small" background="#e6da00">
                   <Paragraph textAlign="center" size="xxlarge" color="#2d3748">
