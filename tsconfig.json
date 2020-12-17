@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "pages/api/getTodos.js"
+    "pages/api/getTodos.js",
   ],
   "exclude": [
     "node_modules"
