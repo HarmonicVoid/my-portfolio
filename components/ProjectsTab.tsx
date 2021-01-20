@@ -7,7 +7,7 @@ function ProjectsTab(){
       <Box margin={{top: '25vh'}} align="center">
         <motion.div initial="hidden" animate="visible" variants={{
               hidden: {
-                scale: 3,
+                scale: .8,
                 opacity: 0
               },
               visible: {

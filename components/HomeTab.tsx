@@ -7,10 +7,9 @@ function HomeTab(){
     return(
 
       <>
-
           <motion.div initial="hidden" animate="visible" variants={{
               hidden: {
-                scale: 1.1,
+                scale: 0.7,
                 opacity: 0
               },
               visible: {
@@ -20,10 +19,9 @@ function HomeTab(){
                   delay: .3
                 }
               },
-            }}>
+           }}>
             <Box margin={{top: '5vh', left: '5vh', right: '5vh'}} align="center">
-              
-              <Box align="center"
+                  <Box align="center"
                     justify="center"
                     direction="row"
                     gap="small"
@@ -36,9 +34,9 @@ function HomeTab(){
                     </Paragraph>
                   </Box>
             </Box>
-          </motion.div>    
-
+          </motion.div>
       </>
+
     )
 }
 

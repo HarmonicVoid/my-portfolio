@@ -3,10 +3,13 @@ import {Heading, Box} from "grommet";
 import styles from '../styles/myStyles.module.css'
 import {motion} from 'framer-motion'
 
+
 export default function Home() {
 
   return (
     <>
+    
+    
       <Head>
         <title >Marvin Bolanos</title>
         <link rel="icon" href="/logo.jpg" />
